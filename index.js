@@ -4,7 +4,14 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 
+app.set('view engine', 'pug');
+
 app.get('/', (req, res) => {
+    let data = loadData();
+    res.render('index', {data: data});
+});
+
+app.get('/data', (req, res) => {
     // Load data files
     let data = loadData();
     res.send(data);

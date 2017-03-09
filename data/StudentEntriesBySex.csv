@@ -1,4 +1,4 @@
-"Course number","Long name","Crs Value Units","Crs Value Hours","BDC Flag","Total - Male","Total - Female","Total - Total"
+"courseNumber","longName","crsValueUnits","crsValueHours","isBoardDeveloped","male","female","total"
 15000,"Aboriginal Studies",2,,"Y",158,338,496
 63033,"Aboriginal Studies - Local",2,,"N",2,2,4
 16687,"Aboriginal Studies Life Skills",2,,"Y",10,15,25

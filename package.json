@@ -17,5 +17,8 @@
   "homepage": "https://github.com/dralc/resultify#readme",
   "devDependencies": {
     "express": "^4.15.2"
+  },
+  "dependencies": {
+    "pug": "^2.0.0-beta11"
   }
 }

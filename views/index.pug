@@ -1,0 +1,19 @@
+script.
+	var data = data;
+
+.root
+	each student in data.AllRounders
+		//-p #{student.firstName} #{student.lastName} | #{student.gender} | #{student.school}
+
+	each item in data.Candidature
+		//-p #{item.type} | #{item.male} | #{item.female} | #{item.total}
+
+	each student in data.FirstPlaceInCourse
+		//-p #{student.courseNumber} | #{student.longName} | #{student.firstName} | #{student.familyName} | #{student.schoolNumber} | #{student.school}
+
+	each student in data.StudentEntriesBySex
+		//-p #{student.courseNumber} | #{student.longName} | #{student.crsValueUnits} | #{student.crsValueHours} | #{student.isBoardDeveloped} | #{student.male} | #{student.female} | #{student.total}
+
+	each student in data.TopAchieversInCourse
+		//-p #{student.courseNumber} | #{student.longName} | #{student.firstName} | #{student.familyName} | #{student.place} | #{student.schoolNumber} | #{student.school}
+

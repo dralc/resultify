@@ -5,6 +5,7 @@ const fs = require('fs');
 const app = express();
 
 app.set('view engine', 'pug');
+app.use(express.static('www'));
 
 app.get('/', (req, res) => {
     let data = loadData();

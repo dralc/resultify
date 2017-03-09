@@ -1,0 +1,21 @@
+{
+  "name": "resultify",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dralc/resultify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dralc/resultify/issues"
+  },
+  "homepage": "https://github.com/dralc/resultify#readme",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}

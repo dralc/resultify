@@ -14,8 +14,11 @@ function createPie(context, labelAr, dataAr) {
             datasets: [{
                 label: 'students',
                 backgroundColor: [
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)'
+                    '#596EB1',
+                    '#3BE5D3',
+                    '#22CCDE',
+                    '#1CAEDD',
+                    '#268DCE'
                 ],
                 data: dataAr,
             }]

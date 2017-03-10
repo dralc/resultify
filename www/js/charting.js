@@ -66,6 +66,9 @@ function createBar(context, legendLabel, yLabelAr, dataAr) {
                         beginAtZero:true
                     }
                 }]
+            },
+            legend: {
+                display: false
             }
         }
     });

@@ -1,3 +1,9 @@
+.root {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2f3e47+0,22323f+100&1+0,0+100 */
+    background: linear-gradient(to bottom,  rgba(47,62,71,1) 0%,rgba(34,50,63,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: #fff;
+}
+
 .flex-col {
     display: flex;
     flex-direction: column;
@@ -9,7 +15,7 @@
 
 .flex-item {
     flex: 1 1 auto;
-    border-bottom: #ccc solid 1px;
+    border-bottom: #ccc solid 3px;
 }
 
 .flex-row {
@@ -19,4 +25,21 @@
     justify-content: flex-start;
     align-content: stretch;
     align-items: stretch;
+}
+
+.title1 {
+    font-size: 40px;
+}
+
+.title2 {
+    font-size: 30px;
+}
+
+.title3 {
+    font-size: 40px;
+}
+
+.title4 {
+    color: #36B2FB;
+    font-size: 45px;
 }

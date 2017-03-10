@@ -31,23 +31,29 @@ html
 			.flex-col
 				.flex-item
 					img(src='images/banners/fairvalehigh.png')
-				.flex-item
+				.flex-item.title1
 					p We would like to congratulate everyone who participated in this year’s High School Certificate (HSC) and wish them all the best in their next adventures.
 					p This year, 76,199 students sat the HSC with [number] of them Fairvale High School alumni.
 					p It has been a long, tough year and I know how hard both you as student and teacher have work so let’s take a look at your awesome results.
 					p The Board Of Studies has broken down the results into six categories and we will be able to show this data how it relates to our school and those in the region.
 				.flex-item
 					| bar charts
+				.flex-item
+					p.title4 Subject Results
 				.flex-item.flex-row
 					.flex-item
+						p.title3 Mathematics
 						canvas#myChart1.rty-pie
 					.flex-item
+						p.title3 English
 						canvas#myChart2.rty-pie
 
 				.flex-item.flex-row
 					.flex-item
+						p.title3 Design
 						canvas#myChart3.rty-pie
 					.flex-item
+						p.title3 Design
 						canvas#myChart4.rty-pie
 
 		script.

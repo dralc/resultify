@@ -6,10 +6,10 @@ function initCharts(data) {
     createPie('myChart2', ['Red', 'Blue'], data.b);
     createPie('myChart3', ['Red', 'Blue'], data.c);
     createPie('myChart4', ['Red', 'Blue'], data.d);
-    createBar('myChartBar1', 'score', ['John', 'Dick', 'Harry'], data.e);
-    createBar('myChartBar2', 'score', ['John', 'Dick', 'Harry'], data.f);
-    createBar('myChartBar3', 'score', ['John', 'Dick', 'Harry'], data.g);
-    createBar('myChartBar4', 'score', ['John', 'Dick', 'Harry'], data.h);
+    createBar('myChartBar1', '', ['John', 'Dick', 'Harry'], data.e);
+    createBar('myChartBar2', '', ['John', 'Dick', 'Harry'], data.f);
+    createBar('myChartBar3', '', ['John', 'Dick', 'Harry'], data.g);
+    createBar('myChartBar4', '', ['John', 'Dick', 'Harry'], data.h);
 }
 
 function createPie(context, labelAr, dataAr) {

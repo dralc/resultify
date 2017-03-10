@@ -55,7 +55,7 @@ p {
 }
 
 .desc {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: left;
     padding: 0 15px;
     margin: 0 0 10px;
@@ -68,7 +68,7 @@ p {
 
 .border p {
     background: white;
-    width: 98%;
+    width: 100%;
     display: inline-block;
     height: 0.12em;
     text-indent: -1000em;
@@ -76,4 +76,13 @@ p {
 
 .border p::after {
     content: '.';
+}
+
+.award-header img, .award-header h2 {
+    float: left;
+    margin: 10px 0px 0 10px;
+}
+
+.rty-bar {
+    clear: left;
 }

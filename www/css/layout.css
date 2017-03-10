@@ -62,7 +62,18 @@ p {
 }
 
 .border {
+    text-align: center;
+    margin: 25px 0 0;
+}
+
+.border p {
     background: white;
-    width: 70%;
-    height: 0.1em;
+    width: 98%;
+    display: inline-block;
+    height: 0.12em;
+    text-indent: -1000em;
+}
+
+.border p::after {
+    content: '.';
 }

@@ -2,14 +2,16 @@
 Chart.defaults.global.defaultFontColor = '#fff';
 
 function initCharts(data) {
-    createPie('myChart1', ['Red', 'Blue'], data.a);
-    createPie('myChart2', ['Red', 'Blue'], data.b);
-    createPie('myChart3', ['Red', 'Blue'], data.c);
-    createPie('myChart4', ['Red', 'Blue'], data.d);
-    createBar('myChartBar1', '', ['John', 'Dick', 'Harry'], data.e);
-    createBar('myChartBar2', '', ['John', 'Dick', 'Harry'], data.f);
-    createBar('myChartBar3', '', ['John', 'Dick', 'Harry'], data.g);
-    createBar('myChartBar4', '', ['John', 'Dick', 'Harry'], data.h);
+    createPie('myChart1', ['Fairfield', 'Fairvale', 'Liverpool', 'Mount Pritchard', 'Canley Vale'], data.a);
+    createPie('myChart2', ['Fairfield', 'Fairvale', 'Liverpool', 'Mount Pritchard', 'Canley Vale'], data.b);
+    createPie('myChart3', ['Fairfield', 'Fairvale', 'Liverpool', 'Mount Pritchard', 'Canley Vale'], data.c);
+    createPie('myChart4', ['Fairfield', 'Fairvale', 'Liverpool', 'Mount Pritchard', 'Canley Vale'], data.d);
+    createPie('myChart5', ['Fairfield', 'Fairvale', 'Liverpool', 'Mount Pritchard', 'Canley Vale'], data.e);
+    createPie('myChart6', ['Fairfield', 'Fairvale', 'Liverpool', 'Mount Pritchard', 'Canley Vale'], data.f);
+    createBar('myChartBar1', '', ['Fairfield', 'Fairvale', 'Liverpool', 'Mount Pritchard', 'Canley Vale'], data.g);
+    createBar('myChartBar2', '', ['Fairfield', 'Fairvale', 'Liverpool', 'Mount Pritchard', 'Canley Vale'], data.h);
+    createBar('myChartBar3', '', ['Fairfield', 'Fairvale', 'Liverpool', 'Mount Pritchard', 'Canley Vale'], data.i);
+    createBar('myChartBar4', '', ['Fairfield', 'Fairvale', 'Liverpool', 'Mount Pritchard', 'Canley Vale'], data.j);
 }
 
 function createPie(context, labelAr, dataAr) {

@@ -8,6 +8,7 @@ body {
     color: #fff;
     width: 845px;
     display: inline-block;
+    padding: 0 0 20px 0;
 }
 
 .flex-col {
@@ -64,6 +65,7 @@ p {
 .border {
     text-align: center;
     margin: 25px 0 0;
+    clear: left;
 }
 
 .border p {
@@ -91,6 +93,17 @@ p {
 }
 .award-header h2 {
     margin: 10px 0px 0 18px;
+}
+
+.award p {
+    clear: left;
+    padding: 7px 0 5px 15px;
+    margin: 0;
+    text-align: left;
+}
+
+.award .flex-item {
+    width: 50%;
 }
 
 .rty-bar {

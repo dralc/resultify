@@ -63,21 +63,8 @@ p {
 }
 
 .border {
-    text-align: center;
-    margin: 25px 0 0;
-    clear: left;
-}
-
-.border p {
-    background: white;
-    width: 100%;
-    display: inline-block;
-    height: 0.12em;
-    text-indent: -1000em;
-}
-
-.border p::after {
-    content: '.';
+    border-bottom: #fff solid 3px;
+    margin: 20px 25px;
 }
 
 .award {

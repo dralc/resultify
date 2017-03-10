@@ -40,7 +40,7 @@ html
 					p The Board Of Studies has broken down the results into six categories and we will be able to show this data how it relates to our school and those in the region.
 					div.border
 				.flex-item
-					| bar charts
+					canvas#myChartBar1.rty-bar
 				.flex-item
 					p.title4 Subject Results
 				.flex-item.flex-row
@@ -50,7 +50,6 @@ html
 					.flex-item
 						p.title3 English
 						canvas#myChart2.rty-pie
-
 				.flex-item.flex-row
 					.flex-item
 						p.title3 Design
@@ -65,5 +64,6 @@ html
 				a: [14, 85],
 				b: [55, 45],
 				c: [30, 70],
-				d: [10, 90]
+				d: [10, 90],
+				e: [10, 20, 25]
 			});

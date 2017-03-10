@@ -78,11 +78,22 @@ p {
     content: '.';
 }
 
+.award {
+    margin: 0 0 30px 30px;
+}
+
+.award-header {
+    margin: 0 0 0 12px;
+}
+
 .award-header img, .award-header h2 {
     float: left;
-    margin: 10px 0px 0 10px;
+}
+.award-header h2 {
+    margin: 10px 0px 0 18px;
 }
 
 .rty-bar {
     clear: left;
+    margin: 0 0 0 15px;
 }

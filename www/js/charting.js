@@ -7,6 +7,9 @@ function initCharts(data) {
     createPie('myChart3', ['Red', 'Blue'], data.c);
     createPie('myChart4', ['Red', 'Blue'], data.d);
     createBar('myChartBar1', 'score', ['John', 'Dick', 'Harry'], data.e);
+    createBar('myChartBar2', 'score', ['John', 'Dick', 'Harry'], data.f);
+    createBar('myChartBar3', 'score', ['John', 'Dick', 'Harry'], data.g);
+    createBar('myChartBar4', 'score', ['John', 'Dick', 'Harry'], data.h);
 }
 
 function createPie(context, labelAr, dataAr) {

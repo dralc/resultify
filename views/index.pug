@@ -1,59 +1,66 @@
-link(rel='stylesheet', type='text/css', href='css/layout.css')
-link(rel='stylesheet', type='text/css', href='css/chart.css')
+html
+	head
 
-script.
-	var data = data;
+		link(rel='stylesheet', type='text/css', href='css/layout.css')
+		link(rel='stylesheet', type='text/css', href='css/chart.css')
 
-script(src='js/Chart.min.js')
-script(src='js/charting.js')
+	body
+		script.
+			var data = data;
 
-.root
-	each student in data.AllRounders
-		//-p #{student.firstName} #{student.lastName} | #{student.gender} | #{student.school}
+		script(src='js/Chart.min.js')
+		script(src='js/charting.js')
 
-	each item in data.Candidature
-		//-p #{item.type} | #{item.male} | #{item.female} | #{item.total}
+		.root
+			each student in data.AllRounders
+				//-p #{student.firstName} #{student.lastName} | #{student.gender} | #{student.school}
 
-	each student in data.FirstPlaceInCourse
-		//-p #{student.courseNumber} | #{student.longName} | #{student.firstName} | #{student.familyName} | #{student.schoolNumber} | #{student.school}
+			each item in data.Candidature
+				//-p #{item.type} | #{item.male} | #{item.female} | #{item.total}
 
-	each student in data.StudentEntriesBySex
-		//-p #{student.courseNumber} | #{student.longName} | #{student.crsValueUnits} | #{student.crsValueHours} | #{student.isBoardDeveloped} | #{student.male} | #{student.female} | #{student.total}
+			each student in data.FirstPlaceInCourse
+				//-p #{student.courseNumber} | #{student.longName} | #{student.firstName} | #{student.familyName} | #{student.schoolNumber} | #{student.school}
 
-	each student in data.TopAchieversInCourse
-		//-p #{student.courseNumber} | #{student.longName} | #{student.firstName} | #{student.familyName} | #{student.place} | #{student.schoolNumber} | #{student.school}
+			each student in data.StudentEntriesBySex
+				//-p #{student.courseNumber} | #{student.longName} | #{student.crsValueUnits} | #{student.crsValueHours} | #{student.isBoardDeveloped} | #{student.male} | #{student.female} | #{student.total}
+
+			each student in data.TopAchieversInCourse
+				//-p #{student.courseNumber} | #{student.longName} | #{student.firstName} | #{student.familyName} | #{student.place} | #{student.schoolNumber} | #{student.school}
 
 
-	.flex-col
-		.flex-item
-			| School banner
-		.flex-item.title1
-			| Welcome to
-		.flex-item
-			| bar charts
-		.flex-item
-			p.title4 Subject Results
-		.flex-item.flex-row
-			.flex-item
-				p.title3 Mathematics
-				canvas#myChart1.rty-pie
-			.flex-item
-				p.title3 English
-				canvas#myChart2.rty-pie
+			.flex-col
+				.flex-item
+					img(src='images/banners/fairvalehigh.png')
+				.flex-item.title1
+					p We would like to congratulate everyone who participated in this year’s High School Certificate (HSC) and wish them all the best in their next adventures.
+					p This year, 76,199 students sat the HSC with [number] of them Fairvale High School alumni.
+					p It has been a long, tough year and I know how hard both you as student and teacher have work so let’s take a look at your awesome results.
+					p The Board Of Studies has broken down the results into six categories and we will be able to show this data how it relates to our school and those in the region.
+				.flex-item
+					| bar charts
+				.flex-item
+					p.title4 Subject Results
+				.flex-item.flex-row
+					.flex-item
+						p.title3 Mathematics
+						canvas#myChart1.rty-pie
+					.flex-item
+						p.title3 English
+						canvas#myChart2.rty-pie
 
-		.flex-item.flex-row
-			.flex-item
-				p.title3 Design
-				canvas#myChart3.rty-pie
-			.flex-item
-				p.title3 Design
-				canvas#myChart4.rty-pie
+				.flex-item.flex-row
+					.flex-item
+						p.title3 Design
+						canvas#myChart3.rty-pie
+					.flex-item
+						p.title3 Design
+						canvas#myChart4.rty-pie
 
-script.
-	//initCharts(data);
-	initCharts({
-		a: [14, 85],
-		b: [55, 45],
-		c: [30, 70],
-		d: [10, 90]
-	});
+		script.
+			//initCharts(data);
+			initCharts({
+				a: [14, 85],
+				b: [55, 45],
+				c: [30, 70],
+				d: [10, 90]
+			});

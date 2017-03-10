@@ -29,7 +29,12 @@ function createPie(context, labelAr, dataAr) {
                 data: dataAr,
             }]
         },
-        options: { responsive: false}
+        options: {
+            responsive: false,
+            legend: {
+                position: 'bottom'
+            }
+        }
     });
 }
 
